@@ -120,7 +120,13 @@ body {
 .section-heading span {
   color: #4a0e8f;
 }
-
+.section-divider {
+  width: 40px;
+  height: 3px;
+  background-color: #4a0e8f;
+  border-radius: 2px;
+  margin-bottom: 28px;
+}
 .section-description {
   font-family: "Roboto";
   font-size: 15px;
@@ -319,4 +325,77 @@ body {
   display: none;
   cursor: pointer;
   z-index: 200;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 767px) {
+  /* Hero */
+  .hero-section-heading {
+    font-size: 28px;
+  }
+  .hero-section-tag {
+    font-size: 12px;
+  }
+  .hero-section-description {
+    font-size: 15px;
+  }
+  .hero-primary-button,
+  .hero-outline-button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .hero-section-img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Sections */
+  .section-heading {
+    font-size: 22px;
+  }
+  .section-description {
+    font-size: 14px;
+  }
+
+  /* Skills */
+  .skill-badge {
+    font-size: 13px;
+    padding: 7px 14px;
+    margin: 4px;
+  }
+
+  /* Experience */
+  .experience-card {
+    padding: 18px;
+  }
+  .experience-card-role {
+    font-size: 18px;
+  }
+  .experience-card-list li {
+    font-size: 13px;
+  }
+
+  /* Projects */
+  .project-card {
+    padding: 18px;
+    margin-bottom: 16px;
+  }
+  .project-card-title {
+    font-size: 16px;
+  }
+  .project-card-description {
+    font-size: 13px;
+  }
+
+  /* Contact */
+  .contact-info-item {
+    font-size: 14px;
+  }
+
+  /* Footer */
+  .footer-section-text {
+    font-size: 12px;
+  }
 }

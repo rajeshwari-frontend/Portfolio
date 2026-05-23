@@ -120,13 +120,7 @@ body {
 .section-heading span {
   color: #4a0e8f;
 }
-.section-divider {
-  width: 40px;
-  height: 3px;
-  background-color: #4a0e8f;
-  border-radius: 2px;
-  margin-bottom: 28px;
-}
+
 .section-description {
   font-family: "Roboto";
   font-size: 15px;
